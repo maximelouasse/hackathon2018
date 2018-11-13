@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/map-icons.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Hackathon 2018 - ECV Digital</title>
     </head>
     <body>
+        <header>
+            <h1>Hackathon 2018 - ECV Digital</h1>
+        </header>
+
+        <div id="map"></div>
+        <div id="filters">
+            <div>
+                <input type="checkbox" id="group_elephant" name="group_elephant" checked>
+                <label for="group_elephant">Elephant</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="farm" name="farm" checked>
+                <label for="farm">Farm</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="water" name="water" checked>
+                <label for="water">Water</label>
+            </div>
+        </div>
         
+    <script src="./js/connexion.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC72DjJNATg6osOsq9XGIq7VWFa5lWLm7A&callback=initMap" type="text/javascript"></script>
+    <script src="./js/map.js"></script>
     </body>
 </html>

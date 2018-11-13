@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 16px Roboto, sans-serif;
+    line-height: 1.4;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+/**************************************************************/
+
+/* Header */
+header {
+    margin: 0 auto 20px;
+    padding: 1rem;
+    width: 100%; 
+    text-align: center;
+    background: #c3c3c3;
+    color: #fff;
+}
+
+/**************************************************************/
+
+/* Formulaire connexion */
+
+form{
+    text-align: center;
+}
+
+form input{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Map */
+#map {
+    width: 70%;
+    height: 400px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.map-icon-label .map-icon {
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 48px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+#filters {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
